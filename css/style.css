@@ -1,0 +1,68 @@
+    body {
+        font-family: 'B612', sans-serif;
+        font-size: 1.25rem;
+        background: url(../img/fundo.png) no-repeat;
+        background-size: cover;
+        height: 100vh;
+        color: #Ffffff;
+    }
+    
+    .container {
+        padding-left: 2.25rem;
+        padding-right: 2.25rem;
+    }
+    
+    .header {
+        padding-top: 2.81rem;
+    }
+    
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    div span {
+        font-size: 1.25rem;
+    }
+    
+    div h1 {
+        font-size: 6rem;
+        padding-top: 3.5rem;
+        padding-bottom: 7.56rem
+    }
+    
+    .conteudo_filme {
+        padding-left: 20rem;
+        padding-top: 4rem;
+    }
+    
+    .capa_filme {
+        margin-right: 4.5rem;
+    }
+    
+    .conteudo_filme_tipo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .informacao_filme {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 20rem;
+    }
+    
+    .informacao_filme_descricao {
+        font-size: 1.1rem;
+        line-height: 32px;
+    }
+    
+    .informacao_extra {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 2.4rem 0;
+    }
